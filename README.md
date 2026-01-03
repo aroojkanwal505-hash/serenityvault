@@ -48,3 +48,28 @@ A comprehensive Android application for managing mortuary operations with role-b
 ---
 
 ## 📁 **Project Structure**
+MortuaryManagementSystem/
+├── app/
+│ ├── manifests/
+│ │ └── AndroidManifest.xml
+│ ├── java/
+│ │ └── com/example/mortuarymanagementsystem/
+│ │ ├── LoginActivity.java
+│ │ ├── DashboardActivity.java
+│ │ ├── PoliceDashboardActivity.java
+│ │ ├── ReportBodyActivity.java
+│ │ ├── MortuaryStaffDashboardActivity.java
+│ │ ├── DoctorDashboardActivity.java
+│ │ ├── AdminDashboardActivity.java
+│ │ ├── CasesListActivity.java
+│ │ ├── NotificationsActivity.java
+│ │ ├── MortuaryCaseActionActivity.java
+│ │ ├── DatabaseHelper.java
+│ │ ├── ThemeManager.java
+│ │ └── WebViewActivity.java
+│ └── res/
+│ ├── layout/ (All XML layouts)
+│ ├── drawable/ (Icons and images)
+│ ├── menu/ (Navigation menus)
+│ └── values/ (Strings, colors, themes)
+└── build.gradle
