@@ -1,0 +1,61 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Mortuary Management System</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Mortuary Management System</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="select_role">Select Role</string>
+    <string name="invalid_credentials">Invalid credentials</string>
+
+    <!-- Roles -->
+    <string name="role_police">Police Officer</string>
+    <string name="role_mortuary">Mortuary Staff</string>
+    <string name="role_doctor">Doctor</string>
+    <string name="role_admin">Admin</string>
+
+    <!-- Dashboard -->
+    <string name="welcome">Welcome</string>
+    <string name="police_dashboard">Police Officer Dashboard</string>
+    <string name="mortuary_dashboard">Mortuary Staff Dashboard</string>
+
+    <!-- Police Features -->
+    <string name="report_body">Report Unidentified Body</string>
+    <string name="update_identity">Update Identity Information</string>
+    <string name="mark_transit">Mark Body in Transit</string>
+    <string name="authorize_release">Authorize Body Release</string>
+
+    <!-- Mortuary Features -->
+    <string name="accept_case">Accept Case</string>
+    <string name="confirm_received">Confirm Body Received</string>
+    <string name="update_status">Update Body Status</string>
+
+    <!-- Report Body -->
+    <string name="report_body_title">Report Unidentified Body</string>
+    <string name="location_found">Location Found</string>
+    <string name="time_found">Time Found</string>
+    <string name="body_description">Body Description</string>
+    <string name="submit_report">Submit Report</string>
+    <!-- Doctor -->
+    <string name="doctor_dashboard">Doctor Dashboard</string>
+    <string name="perform_autopsy">Perform Autopsy</string>
+    <string name="view_cases">View Cases</string>
+
+    <!-- Admin -->
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="manage_users">Manage Users</string>
+    <string name="system_reports">System Reports</string>
+
+    <!-- Common -->
+    <string name="open">Open</string>
+    <string name="audit_log">Audit Log</string>
+    <!-- Dashboard Messages -->
+    <string name="welcome_user">Welcome, %s!</string>
+    <string name="police_message">You can report new cases and update identity information.</string>
+    <string name="mortuary_message">You can accept cases, manage body storage, and update body status.</string>
+    <string name="doctor_message">You can perform autopsies and upload findings.</string>
+    <string name="admin_message">You have full system access and can manage all operations.</string>
+    <string name="default_message">Please contact administrator for role permissions.</string>
+</resources>

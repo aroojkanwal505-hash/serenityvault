@@ -1,0 +1,43 @@
+<resources>
+        <!-- Existing Colors (Keep these) -->
+        <color name="primary">#2E7D32</color>
+        <color name="primary_dark">#1B5E20</color>
+        <color name="primary_light">#4CAF50</color>
+        <color name="secondary">#2196F3</color>
+        <color name="secondary_dark">#1976D2</color>
+        <color name="secondary_light">#64B5F6</color>
+        <color name="police_color">#2196F3</color>
+        <color name="mortuary_color">#4CAF50</color>
+        <color name="doctor_color">#FF9800</color>
+        <color name="admin_color">#9C27B0</color>
+        <color name="white">#FFFFFF</color>
+        <color name="light_gray">#F5F5F5</color>
+        <color name="border_gray">#E0E0E0</color>
+        <color name="text_dark">#212121</color>
+        <color name="text_light">#757575</color>
+        <color name="success">#4CAF50</color>
+        <color name="warning">#FF9800</color>
+        <color name="error">#F44336</color>
+
+        <!-- NEW THEME COLORS (Add these at the end) -->
+        <!-- Light Theme Colors -->
+        <color name="light_primary">#2196F3</color>
+        <color name="light_primary_dark">#1976D2</color>
+        <color name="light_background">#FFFFFF</color>
+        <color name="light_surface">#F5F5F5</color>
+        <color name="light_text_primary">#212121</color>
+
+        <!-- Dark Theme Colors -->
+        <color name="dark_primary">#BB86FC</color>
+        <color name="dark_primary_dark">#3700B3</color>
+        <color name="dark_background">#121212</color>
+        <color name="dark_surface">#1E1E1E</color>
+        <color name="dark_text_primary">#FFFFFF</color>
+
+        <!-- Custom Blue Theme Colors -->
+        <color name="custom_primary">#03A9F4</color>
+        <color name="custom_primary_dark">#0288D1</color>
+        <color name="custom_background">#E3F2FD</color>
+        <color name="custom_surface">#BBDEFB</color>
+        <color name="custom_text_primary">#01579B</color>
+</resources>

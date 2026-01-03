@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Dark Theme - NIGHT MODE -->
+    <style name="Theme.MortuaryManagementSystem" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">#BB86FC</item>
+        <item name="colorPrimaryDark">#3700B3</item>
+        <item name="android:windowBackground">#000000</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:editTextStyle">@style/DarkEditText</item>
+        <item name="android:buttonStyle">@style/DarkButton</item>
+    </style>
+
+</resources>

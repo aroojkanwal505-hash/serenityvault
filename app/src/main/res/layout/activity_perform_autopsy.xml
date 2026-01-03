@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/light_gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perform Autopsy"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/doctor_color"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <!-- Case ID -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Case ID *"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etCaseId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Case ID"
+            android:background="@drawable/edittext_background"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="16sp"/>
+
+        <!-- Autopsy Findings -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Autopsy Findings *"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etFindings"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Enter detailed autopsy findings...
+            - Cause of death
+            - Time of death estimation
+            - Medical observations
+            - Other findings"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:background="@drawable/edittext_background"
+            android:padding="16dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="16sp"/>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSubmitAutopsy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Autopsy Report"
+            android:textSize="18sp"
+            android:backgroundTint="@color/doctor_color"
+            android:textColor="@color/white"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

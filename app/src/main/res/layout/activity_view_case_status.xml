@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/light_gray">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Case Status"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/etSearchCaseId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Case ID to check status"
+        android:background="@drawable/edittext_background"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Case"
+        android:textSize="18sp"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white"
+        android:padding="16dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/tvCaseStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Case status will appear here..."
+        android:textSize="16sp"
+        android:background="@color/white"
+        android:padding="16dp"
+        android:textColor="@color/text_dark"
+        android:lineSpacingExtra="4dp"/>
+
+</LinearLayout>

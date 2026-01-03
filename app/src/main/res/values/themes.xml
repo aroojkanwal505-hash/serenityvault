@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base Theme -->
+    <style name="Base.Theme.MortuaryManagementSystem" parent="Theme.Material3.DayNight">
+        <!-- Customize your theme here -->
+    </style>
+
+    <!-- Light Theme -->
+    <style name="Theme.Light" parent="Base.Theme.MortuaryManagementSystem">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColorPrimary">@color/text_dark</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+
+    <!-- Dark Theme - PROPER BLACK BACKGROUND -->
+    <style name="Theme.Dark" parent="Base.Theme.MortuaryManagementSystem">
+        <item name="colorPrimary">#BB86FC</item>
+        <item name="colorPrimaryDark">#3700B3</item>
+        <item name="android:windowBackground">#000000</item> <!-- Pure Black -->
+        <item name="android:textColorPrimary">#FFFFFF</item> <!-- White text -->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:editTextStyle">@style/DarkEditText</item>
+        <item name="android:buttonStyle">@style/DarkButton</item>
+    </style>
+
+    <!-- Dark EditText Style -->
+    <style name="DarkEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorHint">#AAAAAA</item>
+        <item name="android:background">#333333</item>
+    </style>
+
+    <!-- Dark Button Style -->
+    <style name="DarkButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:backgroundTint">#BB86FC</item>
+    </style>
+
+    <!-- Default App Theme -->
+    <style name="Theme.MortuaryManagementSystem" parent="Theme.Light" />
+
+</resources>

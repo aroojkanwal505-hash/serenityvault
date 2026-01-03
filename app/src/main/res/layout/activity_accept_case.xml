@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/light_gray">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accept Case"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/mortuary_color"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Case ID to Accept"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etCaseId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Case ID (e.g., CASE_123456789)"
+        android:background="@drawable/edittext_background"
+        android:padding="16dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnAcceptCase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accept Case"
+        android:textSize="18sp"
+        android:backgroundTint="@color/mortuary_color"
+        android:textColor="@color/white"
+        android:padding="16dp"/>
+
+</LinearLayout>

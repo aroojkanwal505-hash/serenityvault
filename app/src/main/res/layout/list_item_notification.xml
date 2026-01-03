@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp"
+    android:layout_margin="4dp"
+    android:elevation="2dp">
+
+    <!-- Notification Title -->
+    <TextView
+        android:id="@+id/tvNotifTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification Title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"/>
+
+    <!-- Notification Message -->
+    <TextView
+        android:id="@+id/tvNotifMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification message details will appear here..."
+        android:textSize="14sp"
+        android:textColor="@color/text_dark"
+        android:layout_marginTop="4dp"
+        android:lineSpacingExtra="2dp"/>
+
+    <!-- Time and Status -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/tvNotifTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Just now"
+            android:textSize="12sp"
+            android:textColor="@color/text_light"/>
+
+        <TextView
+            android:id="@+id/tvNotifStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEW"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/notif_new_badge"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
