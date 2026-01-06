@@ -5,7 +5,7 @@ import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class AdminDashboardActivity extends AppCompatActivity {
+public class AdminDashboardActivity extends BaseActivity {
     private Button btnManageUsers, btnSystemReports, btnAuditLog;
 
     @Override

@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class AcceptCaseActivity extends AppCompatActivity {
+public class AcceptCaseActivity extends BaseActivity {
     private EditText etCaseId;
     private Button btnAcceptCase;
 

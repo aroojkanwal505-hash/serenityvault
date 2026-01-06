@@ -1,39 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="24dp"
     android:background="@color/light_gray">
 
-    <TextView
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Confirm Body Received"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:textColor="@color/mortuary_color"
-        android:gravity="center"
-        android:layout_marginBottom="30dp"/>
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/mortuary_color"
+        app:title="Confirm Body Received"
+        app:titleTextColor="@android:color/white" />
 
-    <EditText
-        android:id="@+id/etCaseId"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter Case ID"
-        android:background="@drawable/edittext_background"
-        android:padding="16dp"
-        android:layout_marginBottom="30dp"
-        android:textSize="16sp"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
 
-    <Button
-        android:id="@+id/btnConfirmReceived"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Confirm Received"
-        android:textSize="18sp"
-        android:backgroundTint="@color/mortuary_color"
-        android:textColor="@color/white"
-        android:padding="16dp"/>
+        <EditText
+            android:id="@+id/etCaseId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Case ID"
+            android:background="@drawable/edittext_background"
+            android:padding="16dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="16sp"/>
 
+        <Button
+            android:id="@+id/btnConfirmReceived"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Received"
+            android:textSize="18sp"
+            android:backgroundTint="@color/mortuary_color"
+            android:textColor="@color/white"
+            android:padding="16dp"/>
+
+    </LinearLayout>
 </LinearLayout>

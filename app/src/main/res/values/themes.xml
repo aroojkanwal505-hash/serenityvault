@@ -1,47 +1,57 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Base Theme -->
-    <style name="Base.Theme.MortuaryManagementSystem" parent="Theme.Material3.DayNight">
-        <!-- Customize your theme here -->
-    </style>
-
-    <!-- Light Theme -->
-    <style name="Theme.Light" parent="Base.Theme.MortuaryManagementSystem">
+    <!-- Theme 1: Light (Your Default) -->
+    <style name="Theme.Light" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Brand Color -->
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
+        <!-- Surface Colors -->
         <item name="android:windowBackground">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <!-- Text Colors -->
         <item name="android:textColorPrimary">@color/text_dark</item>
+        <item name="colorOnSurface">@color/text_dark</item>
+        <!-- System Bar Colors -->
         <item name="android:statusBarColor">@color/primary_dark</item>
         <item name="android:navigationBarColor">@color/white</item>
     </style>
 
-    <!-- Dark Theme - PROPER BLACK BACKGROUND -->
-    <style name="Theme.Dark" parent="Base.Theme.MortuaryManagementSystem">
+    <!-- Theme 2: Dark (Your Custom Black Theme) -->
+    <style name="Theme.Dark" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Brand Color (Purple for Dark) -->
         <item name="colorPrimary">#BB86FC</item>
         <item name="colorPrimaryDark">#3700B3</item>
-        <item name="android:windowBackground">#000000</item> <!-- Pure Black -->
-        <item name="android:textColorPrimary">#FFFFFF</item> <!-- White text -->
-        <item name="android:textColor">#FFFFFF</item>
+        <!-- Surface Colors (BLACK Backgrounds) -->
+        <item name="android:windowBackground">#000000</item> <!-- Pure Black Window -->
+        <item name="colorSurface">#121212</item>            <!-- Slightly lighter black for cards -->
+        <!-- Text Colors (WHITE text) -->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+        <!-- System Bar Colors (BLACK) -->
         <item name="android:statusBarColor">#000000</item>
         <item name="android:navigationBarColor">#000000</item>
-        <item name="android:editTextStyle">@style/DarkEditText</item>
-        <item name="android:buttonStyle">@style/DarkButton</item>
+        <!-- Component Styles -->
+        <item name="editTextStyle">@style/DarkEditText</item>
+        <item name="materialButtonStyle">@style/DarkButton</item>
     </style>
 
-    <!-- Dark EditText Style -->
-    <style name="DarkEditText" parent="Widget.AppCompat.EditText">
+    <!-- Theme 3: Custom Blue -->
+    <style name="Theme.CustomBlue" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="android:statusBarColor">#1976D2</item>
+    </style>
+
+    <!-- ===== Component Styles for Dark Theme ===== -->
+    <style name="DarkEditText" parent="@android:style/Widget.EditText">
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:textColorHint">#AAAAAA</item>
         <item name="android:background">#333333</item>
     </style>
 
-    <!-- Dark Button Style -->
-    <style name="DarkButton" parent="Widget.AppCompat.Button">
+    <style name="DarkButton" parent="@android:style/Widget.Button">
         <item name="android:textColor">#FFFFFF</item>
-        <item name="android:backgroundTint">#BB86FC</item>
+        <item name="android:background">#BB86FC</item>
     </style>
-
-    <!-- Default App Theme -->
-    <style name="Theme.MortuaryManagementSystem" parent="Theme.Light" />
 
 </resources>

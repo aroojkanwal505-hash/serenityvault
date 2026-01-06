@@ -5,12 +5,14 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <!-- FIXED: Changed <a> to <application> -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="Mortuary Management System"
-        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        android:theme="@style/Theme.Light"
         tools:targetApi="31">
 
         <activity
@@ -23,7 +25,8 @@
         </activity>
         <activity android:name=".MortuaryCaseActionActivity" />
         <activity android:name=".WebViewActivity" />
-
+        <activity android:name=".NotificationsActivity" />
+        <activity android:name=".UpdateIdentityActivity" />
         <activity android:name=".AcceptCaseActivity" />
         <activity android:name=".DashboardActivity" />
         <activity android:name=".PoliceDashboardActivity" />
